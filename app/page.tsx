@@ -38,7 +38,7 @@ export default async function Home({ searchParams }: HomeProps) {
             <CustomFilter title='year' options={yearsOfProduction} />
           </div>
         </div>
-
+ 
         {!isDataEmpty ? (
           <section>
             <div className='home__cars-wrapper'>
